@@ -110,7 +110,7 @@ def main_menu_program():
      main_menu.geometry(f'800x500+{width_resolution // 2 - 400}+{height_resolution // 2 - 250}')
      main_menu.resizable(False, False)
 
-     label = customtkinter.CTkLabel(master=main_menu, text='Prog Name', bg_color='transparent', font=('Arial', 16))
+     label = customtkinter.CTkLabel(master=main_menu, text='Тут ничего нету!', bg_color='transparent', font=('Arial', 16))
      label.place(relx=0.01, rely=0.001)
      main_menu.protocol('WM_DELETE_WINDOW', on_close)
      main_menu.mainloop()
